@@ -6,9 +6,13 @@ import { PrismaService } from '../prisma/prisma.service';
 @Module({
 
   providers: [
+
     TodoResolver,
+
     TodoService,
+
     PrismaService
+
   ]
 
 })
